@@ -5,9 +5,9 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
 fi
 
 # Python
-export PATH=$PATH:/home/shengli/.local/bin
+export PATH=$PATH:~/.local/bin
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export WORKON_HOME=$HOME/.virtualenvs
+export WORKON_HOME=~/.virtualenvs
 source ~/.local/bin/virtualenvwrapper.sh
 
 # CUDA 11.1
