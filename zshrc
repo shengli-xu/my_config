@@ -1,4 +1,4 @@
-if [ "$TMUX" = "" ]; then tmux; fi
+if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then exec tmux; fi
 
 # Git SSH-AGENT
 if [ -z "$SSH_AUTH_SOCK" ] ; then
