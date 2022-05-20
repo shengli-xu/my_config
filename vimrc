@@ -41,6 +41,7 @@ set foldlevel=99
 set nocompatible
 
 call plug#begin('~/.config/nvim/plugged')
+    Plug 'jiangmiao/auto-pairs'
     Plug 'kaicataldo/material.vim', { 'branch': 'main'}
     Plug 'preservim/nerdtree'
     Plug 'Xuyuanp/nerdtree-git-plugin'
