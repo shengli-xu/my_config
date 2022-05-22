@@ -42,7 +42,7 @@ set nocompatible
 
 call plug#begin('~/.config/nvim/plugged')
     Plug 'jiangmiao/auto-pairs'
-    Plug 'kaicataldo/material.vim', { 'branch': 'main'}
+    Plug 'arcticicestudio/nord-vim'
     Plug 'preservim/nerdtree'
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'ryanoasis/vim-devicons'
@@ -57,14 +57,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'davidhalter/jedi-vim'
 call plug#end()
 
-" Material Theme
-if (has('termguicolors'))
-    set termguicolors
-endif
-
-let g:material_terminal_italics = 1
-let g:material_theme_style = 'palenight'
-colorscheme material
+" Nord Theme
+colorscheme nord
 
 " NERDTree
 let g:NERDTreeShowHidden = 1
