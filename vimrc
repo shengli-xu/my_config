@@ -1,5 +1,3 @@
-# vimrc
-``` bash
 syntax on
 set ruler
 set formatoptions+=o
@@ -19,6 +17,7 @@ set autoindent
 set smarttab
 set softtabstop=2
 set autochdir
+set guicursor=
 
 " Python
 au BufNewFile,BufRead *.py set tabstop=4
