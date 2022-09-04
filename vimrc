@@ -5,7 +5,7 @@ set textwidth=79
 set modeline
 set linespace=0
 set nojoinspaces
-set mouse=a
+# set mouse=a
 set wrap
 set matchpairs+=<:>
 set number
