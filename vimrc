@@ -19,6 +19,8 @@ set softtabstop=2
 set autochdir
 set guicursor=
 
+imap jj <Esc>
+
 " Python
 au BufNewFile,BufRead *.py set tabstop=4
 au BufNewFile,BufRead *.py set softtabstop=4
@@ -175,8 +177,6 @@ nmap ++ <plug>NERDCommenterToggle
 map <C-l> :tabn<CR>
 map <C-h> :tabp<CR>
 map <C-n> :tabnew<CR>
-
-imap jj <Esc>
 
 " Enable folding with the spacebar
 nnoremap <space> za
