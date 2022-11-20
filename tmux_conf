@@ -19,18 +19,12 @@ set-option -g @plugin 'tmux-plugins/tpm'
 set-option -g @plugin 'tmux-plugins/tmux-sensible'
 set-option -g @plugin 'tmux-plugins/tmux-yank'
 set-option -g @plugin 'tmux-plugins/tmux-resurrect'
-set-option -g @plugin 'dracula/tmux'
+set-option -g @plugin 'arcticicestudio/nord-tmux'
 
 set-option -g @yank_selection_mouse 'clipboard'
 
-set-option -g @dracula-show-powerline true
-set-option -g @dracula-show-left-icon session
-set-option -g @dracula-plugins "cpu-usage gpu-usage ram-usage weather time"
-set-option -g @dracula-show-fahrenheit false
-set-option -g @dracula-fixed-locaiton "Greenville, South Carolina"
-set-option -g @dracula-show-location false
-set-option -g @dracula-day-month false
-set-option -g @dracula-military-time true
+set -g default-terminal "tmux-256color"
+set -ag terminal-overrides ",xterm-256color:RGB"
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
