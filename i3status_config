@@ -11,19 +11,19 @@ general {
         interval = 5
 }
 
-order += "wireless _first_"
+order += "ethernet _first_"
 order += "cpu_usage"
 order += "memory"
 order += "volume master"
 order += "tztime local"
 
 wireless _first_ {
-        format_up = "WiFi: (%quality at %essid)"
+        format_up = " (%quality at %essid)"
         format_down = "W: down"
 }
 
 ethernet _first_ {
-        format_up = "E: %ip (%speed)"
+        format_up = " %ip"
         format_down = "E: down"
 }
 
@@ -38,10 +38,10 @@ memory {
 }
 
 volume master {
-        format = "♪: %volume"
+        format = "VOL: %volume"
         format_muted = "♪: muted (%volume)"
 }
 
 tztime local {
-        format = "%m-%d-%Y %H:%M:%S"
+        format = "%a %b %d | %H:%M:%S"
 }
