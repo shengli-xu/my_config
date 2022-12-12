@@ -71,7 +71,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+b exec google-chrome
 
 # lock the screen
-bindsym $mod+Ctrl+l exec "i3lock -c 000000 && systemctl suspend"
+bindsym $mod+Ctrl+l exec "i3lock -c 000000 && xset dpms force off"
 
 # kill focused window
 bindsym $mod+q kill
