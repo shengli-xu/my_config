@@ -209,7 +209,9 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+	status_command exec /usr/share/doc/i3status/contrib/net-speed.sh
         position top
+	tray_output DP-0
         colors {
             background   #24283b
 		        statusline   #9699a8
