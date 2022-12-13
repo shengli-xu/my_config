@@ -209,7 +209,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-	status_command exec /usr/share/doc/i3status/contrib/net-speed.sh
+	status_command exec $HOME/.config/conky/conky-i3bar.sh
         position top
 	tray_output DP-0
 	separator_symbol "  "
