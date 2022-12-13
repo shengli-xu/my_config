@@ -38,11 +38,14 @@ bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewi
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 # Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
-bindsym $mod+F12 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym $mod+F11 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-bindsym $mod+F10 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym $mod+F12 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
+bindsym $mod+F11 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10%
+bindsym $mod+F10 exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+# Use brightnessctl to adjust brightness
+bindsym $mod+F2 exec --no-startup-id brightnessctl s +10%
+bindsym $mod+F1 exec --no-startup-id brightnessctl s 10%-
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
