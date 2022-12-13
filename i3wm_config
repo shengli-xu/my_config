@@ -212,6 +212,7 @@ bar {
 	status_command exec /usr/share/doc/i3status/contrib/net-speed.sh
         position top
 	tray_output DP-0
+	separator_symbol "  "
         colors {
             background   #24283b
 		        statusline   #9699a8
