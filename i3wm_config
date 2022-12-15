@@ -4,6 +4,9 @@ set $mod Mod4
 # set up dual monitors
 exec xrandr --output DP-2 --output DP-4 --right-of DP-2
 
+# set up picom
+exec picom --config ~/.config/i3/picom.conf
+
 # wallpaper
 exec --no-startup-id feh --no-fehbg --bg-fill '/usr/share/backgrounds/4k.jpg'
 
@@ -39,6 +42,12 @@ bindsym $mod+Return exec alacritty
 
 # start a browser
 bindsym $mod+b exec google-chrome
+
+# start Pycharm
+bindsym $mod+Ctrl+p exec pycharm
+
+# start Visual Studio Code
+bindsym $mod+Ctrl+c exec code
 
 # lock the screen
 bindsym $mod+Ctrl+l exec "xset dpms force off && i3lock-fancy -p -- maim"
