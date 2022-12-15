@@ -44,10 +44,10 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+b exec google-chrome
 
 # start Pycharm
-bindsym $mod+Ctrl+p exec pycharm
+bindsym $mod+p exec pycharm
 
 # start Visual Studio Code
-bindsym $mod+Ctrl+c exec code
+bindsym $mod+c exec code
 
 # lock the screen
 bindsym $mod+Ctrl+l exec "xset dpms force off && i3lock-fancy -p -- maim"
