@@ -13,6 +13,12 @@ exec --no-startup-id feh --no-fehbg --bg-fill '/usr/share/backgrounds/4k.jpg'
 # Font for window titles.
 font pango:JetBrainsMono Nerd Font 8
 
+# set up xmodmap
+exec --no-startup-id xmodmap ~/.Xmodmap
+
+# set up picom
+exec --no-startup-id picom --config ~/.config/i3/picom.conf
+
 # Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
