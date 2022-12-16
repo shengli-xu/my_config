@@ -49,6 +49,9 @@ bindsym $mod+p exec pycharm
 # start Visual Studio Code
 bindsym $mod+c exec code
 
+# start Files
+bindsym $mod+f exec nautilus --browser
+
 # lock the screen
 bindsym $mod+Ctrl+l exec "xset dpms force off && i3lock-fancy -p -- maim"
 
