@@ -187,6 +187,7 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar
 bar {
         position top
+        output eDP-1-1
         tray_output none
         status_command $HOME/.config/bumblebee-status/bumblebee-status
 }
