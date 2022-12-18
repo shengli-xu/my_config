@@ -1,3 +1,5 @@
+## CU Email
+```html
 <div>
   <div dir="auto">Best wishes,</div>
   <div dir="auto">SX</div>
@@ -21,3 +23,4 @@
     <img src="https://www.clemson.edu/brand/resources/logos/wordmark-primary/clemson+paw_orange_rgb.png" width=150px>
   </div>
 </div>
+```
