@@ -1,12 +1,6 @@
 # Enable tmux
 if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then exec tmux; fi
 
-# Git SSH-AGENT
-if [ -z "$SSH_AUTH_SOCK" ] ; then
-  eval "$(ssh-agent -s)" > /dev/null
-  ssh-add ~/.ssh/id_rsa_github 2> /dev/null
-fi
-
 # keychain
 source ~/.keychain/$HOST-sh
 
