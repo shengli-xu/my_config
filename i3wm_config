@@ -20,14 +20,14 @@ exec --no-startup-id xmodmap ~/.Xmodmap
 exec --no-startup-id picom --config ~/.config/i3/picom.conf
 
 # Screenshots
-bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
-bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
+bindsym Print exec --no-startup-id maim -o "/home/$USER/Pictures/$(date)"
+bindsym $mod+Print exec --no-startup-id maim -o --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
+bindsym Shift+Print exec --no-startup-id maim -o --select "/home/$USER/Pictures/$(date)"
 
 # Clipboard Screenshots
-bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
-bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+bindsym Ctrl+Print exec --no-startup-id maim -o | xclip -selection clipboard -t image/png
+bindsym Ctrl+$mod+Print exec --no-startup-id maim -o --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+bindsym Ctrl+Shift+Print exec --no-startup-id maim -o --select | xclip -selection clipboard -t image/png
 
 # Use pactl to adjust volume in PulseAudio.
 bindsym $mod+F12 exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -59,7 +59,7 @@ bindsym $mod+c exec code
 bindsym $mod+f exec nautilus --browser
 
 # lock the screen
-bindsym $mod+Ctrl+l exec "xset dpms force off && i3lock-fancy -p -- maim"
+bindsym $mod+Ctrl+l exec "i3lock -c 020202 && sleep 3 && xset dpms force off"
 
 # kill focused window
 bindsym $mod+q kill
