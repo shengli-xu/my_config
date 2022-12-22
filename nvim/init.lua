@@ -36,3 +36,12 @@ require('indentline')
 
 -- bufferline
 require("buffer_line")
+
+-- mason
+require("mason_")
+
+-- language server
+require("lspconfig_")
+
+-- completion
+require("cmp_")
