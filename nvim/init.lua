@@ -40,6 +40,9 @@ require("buffer_line")
 -- mason
 require("mason_")
 
+-- mason-lspconfig
+require("mason_lspconfig")
+
 -- language server
 require("lspconfig_")
 
