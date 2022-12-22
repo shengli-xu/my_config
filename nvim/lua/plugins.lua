@@ -91,8 +91,23 @@ return require('packer').startup(function(use)
   -- bufferline
   use {
     'akinsho/bufferline.nvim',
-    tag = "v2.*"
+    tag = "v3.*"
   }
+		
+  -- automatically install LSPs
+  use { "williamboman/mason.nvim" }
+
+  -- nvim-lspconfig
+  use 'neovim/nvim-lspconfig'
+
+  -- code formatting
+  use 'jose-elias-alvarez/null-ls.nvim'
+
+  -- autocompletion
+  use 'hrsh7th/nvim-cmp'
+
+  -- autocompletion with LSPs
+  use 'hrsh7th/cmp-nvim-lsp'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
