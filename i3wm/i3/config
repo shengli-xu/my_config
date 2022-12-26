@@ -4,9 +4,6 @@ set $mod Mod4
 # set up dual monitors
 exec xrandr --output DP-2 --output DP-4 --right-of DP-2
 
-# set up picom
-exec picom --config ~/.config/i3/picom.conf
-
 # wallpaper
 exec --no-startup-id feh --no-fehbg --bg-fill '/usr/share/backgrounds/4k.jpg'
 
