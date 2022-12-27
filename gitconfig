@@ -1,0 +1,12 @@
+[user]
+	email = victoryxufb@gmail.com
+	name = shengli
+[init]
+	defaultBranch = main
+[alias]
+	st = status
+  co = checkout
+  br = branch
+  ci = commit
+	unstage = reset HEAD --
+  last = log -1 HEAD
