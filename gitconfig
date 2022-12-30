@@ -1,12 +1,12 @@
 [user]
-	email = victoryxufb@gmail.com
-	name = shengli
+  email = victoryxufb@gmail.com
+  name = shengli
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [core]
-	editor = nvim
+  editor = nvim
 [alias]
-	st = status
+  st = status
   co = checkout
   br = branch
   ci = commit
