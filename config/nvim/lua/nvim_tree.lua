@@ -9,6 +9,7 @@ if not config_status_ok then
 end
 
 local tree_cb = nvim_tree_config.nvim_tree_callback
+local api = require("nvim-tree.api")
 
 -- Opening nvim-tree at neovim startup
 local function open_nvim_tree(data)
@@ -31,7 +32,7 @@ local function open_nvim_tree(data)
     --vim.cmd.cd(folder)
     
     -- open the tree, find the file but don't focus it
-    require("nvim-tree.api").tree.toggle({ focus = false, find_file = true, update_root = true})
+    api.tree.toggle({ focus = false, find_file = true, update_root = true})
     
     return
   end
@@ -40,10 +41,15 @@ local function open_nvim_tree(data)
   vim.cmd.cd(data.file)
 
   -- open the tree
-  require("nvim-tree.api").tree.open()
+  api.tree.open()
 end
 
 vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
+
+-- Automatically open file upon creation
+api.events.subscribe(api.events.Event.FileCreated, function(file)
+  vim.cmd("edit " .. file.fname)
+end)
 
 nvim_tree.setup {
   update_focused_file = {
