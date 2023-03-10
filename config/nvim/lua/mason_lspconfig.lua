@@ -4,6 +4,6 @@ if not status_ok then
 end
 
 mason_lsp_config.setup({
-  ensure_installed = {'pyright', 'bashls', 'sumneko_lua', 'cmake'},
+  ensure_installed = {'pyright', 'bashls'},
   automatic_installation = false
 })
