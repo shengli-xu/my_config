@@ -29,70 +29,40 @@ return require('packer').startup(function(use)
 
   -- Useful lua functions used by lots of plugins
   use 'nvim-lua/plenary.nvim'
+  use "nvim-tree/nvim-web-devicons"
 
   -- Autopairs
   use 'windwp/nvim-autopairs'
 
   -- Statusline
-  use {
-    'nvim-lualine/lualine.nvim',
-    --requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-  }
+  use 'nvim-lualine/lualine.nvim'
 
   -- Project
-  use {
-    "ahmedkhalf/project.nvim",
-    commit = "628de7e433dd503e782831fe150bb750e56e55d6"
-  }
+  use "ahmedkhalf/project.nvim"
 
   -- nvim-tree
-  use {
-    'nvim-tree/nvim-tree.lua',
-    requires = {
-      'nvim-tree/nvim-web-devicons', -- optional, for file icons
-    },
-    tag = 'nightly' -- optional, updated every week. (see issue #1193)
-  }
+  use 'nvim-tree/nvim-tree.lua'
 
   -- Indent blankline
-  use {
-    "lukas-reineke/indent-blankline.nvim",
-    commit = "db7cbcb40cc00fc5d6074d7569fb37197705e7f6"
-  }
+  use "lukas-reineke/indent-blankline.nvim"
   
   -- Colorschemes
-  use {
-    "folke/tokyonight.nvim",
-    commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764"
-  }
-  use {
-    'shaunsingh/nord.nvim',
-    commit = "78f5f001709b5b321a35dcdc44549ef93185e024"
-  }
+  use "folke/tokyonight.nvim"
 
   -- Git
-  use {
-    "lewis6991/gitsigns.nvim",
-    commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2"
-  }
+  use "lewis6991/gitsigns.nvim"
 
   -- Telescope
-  use {
-    "nvim-telescope/telescope.nvim",
-    requires = { {'nvim-lua/plenary.nvim'} }
-  }
+  use "nvim-telescope/telescope.nvim"
 
   -- Treesitter
-  use {
-    "nvim-treesitter/nvim-treesitter",
-    commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac",
-  }
+  use "nvim-treesitter/nvim-treesitter"
 
   -- bufferline
-  use {
-    'akinsho/bufferline.nvim',
-    tag = "v3.*"
-  }
+  use "akinsho/bufferline.nvim"
+		
+  -- bufdelete
+  use "famiu/bufdelete.nvim"
 		
   -- LSPs
   use {
