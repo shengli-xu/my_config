@@ -37,6 +37,9 @@ require('indentline')
 -- bufferline
 require("buffer_line")
 
+-- bufdelete
+require("buf_delete")
+
 -- mason
 require("mason_")
 
