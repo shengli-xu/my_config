@@ -14,17 +14,20 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# Enable tmux
-if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then exec tmux; fi
-
 # keychain
 source ~/.keychain/$HOST-sh
+
+export EDITOR="/usr/local/bin/nvim"
 
 # Python
 export PATH=$PATH:~/.local/bin
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=~/.virtualenvs
 source ~/.local/bin/virtualenvwrapper.sh
+
+# tmuxifier
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+eval "$(tmuxifier init -)"
 
 # Alias
 alias vi="nvim"
