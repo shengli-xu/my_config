@@ -26,5 +26,8 @@ set-option -g @yank_selection_mouse 'clipboard'
 set -g default-terminal "tmux-256color"
 set -ag terminal-overrides ",xterm-256color:RGB"
 
+# avoid strange chars in WSL
+set -sg escape-time 50
+
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
