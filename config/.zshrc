@@ -35,8 +35,8 @@ eval "$(tmuxifier init -)"
 # Alias
 alias vi="nvim"
 alias vim="nvim"
-alias ls="exa"
-alias ll="exa -hl"
+alias ls="exa --group-directories-first"
+alias ll="exa -hla --group-directories-first"
 alias palmetto="ssh shenglx@login.palmetto.clemson.edu"
 
 # Color scheme for tty
