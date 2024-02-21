@@ -1,3 +1,9 @@
+# Auto-start tmux
+if [ -n "$PS1" ] && [ -z "$TMUX" ]; then
+  # Create session 'main' or attach to 'main' if already exists.
+  tmux new-session -A -s main
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -14,16 +20,13 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# keychain
-source ~/.keychain/$HOST-sh
-
 export EDITOR="/usr/local/bin/nvim"
 
-# Python
-export PATH=$PATH:~/.local/bin
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export WORKON_HOME=~/.virtualenvs
-source ~/.local/bin/virtualenvwrapper.sh
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # tmuxifier
 export PATH="$HOME/.tmuxifier/bin:$PATH"
