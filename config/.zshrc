@@ -37,6 +37,8 @@ alias vi="nvim"
 alias vim="nvim"
 alias ls="exa --group-directories-first"
 alias ll="exa -hla --group-directories-first"
+alias cat="bat"
+alias cd="z"
 alias palmetto="ssh shenglx@login.palmetto.clemson.edu"
 
 # Color scheme for tty
