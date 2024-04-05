@@ -43,3 +43,5 @@ Before adding a new SSH key to the ssh-agent to manage your keys, you should hav
    ```
 
 2. Use the given template to modify your `~/.ssh/config` file to automatically load keys into the ssh-agent and store passphrases in your keychain.
+
+3. Add the SSH public key to your account on GitHub. For more information, see "[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)."
