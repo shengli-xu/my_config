@@ -1,5 +1,7 @@
 # 友善 R5S/R5C 软路由刷机教程
 
+更多详细资料可参考 FriendlyWrt [官方文档](https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R5S/zh).
+
 ## 用 TF 启动卡烧写系统固件到 eMMC
 
 此方法是通过 TF 卡启动一个小型的 Linux 系统, 然后自动运行一个名为 EFlasher 的工具来将固件烧写到 eMMC 中。可以连接 HDMI 显示器, 通过图形界面来了解进展, 但不是必需的, 可以通过 LED 灯来掌握烧写进度。
