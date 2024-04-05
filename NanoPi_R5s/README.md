@@ -1,10 +1,10 @@
-# 友善R5S/R5C软路由刷机教程
+# 友善 R5S/R5C 软路由刷机教程
 
-## 用TF启动卡烧写系统固件到eMMC
+## 用 TF 启动卡烧写系统固件到 eMMC
 
-此方法是通过TF卡启动一个小型的Linux系统, 然后自动运行一个名为EFlasher的工具来将固件烧写到eMMC中。可以连接HDMI显示器, 通过图形界面来了解进展, 但不是必需的, 可以通过LED灯来掌握烧写进度。
+此方法是通过 TF 卡启动一个小型的 Linux 系统, 然后自动运行一个名为 EFlasher 的工具来将固件烧写到 eMMC 中。可以连接 HDMI 显示器, 通过图形界面来了解进展, 但不是必需的, 可以通过 LED 灯来掌握烧写进度。
 
-   [百度网盘](https://pan.baidu.com/s/1VEFUSDJ7s5qVpBl-8sjtkg?pwd=dtdo#list/path=%2F)，[Google Drive](https://drive.google.com/drive/folders/1yWLtwCesnHfoM8DG7NgJ4jZrjRSI-dQs)
+资源链接：[百度网盘](https://pan.baidu.com/s/1VEFUSDJ7s5qVpBl-8sjtkg?pwd=dtdo#list/path=%2F)，[Google Drive](https://drive.google.com/drive/folders/1yWLtwCesnHfoM8DG7NgJ4jZrjRSI-dQs)
 
 1. 下载能够从 SD 卡到 eMMC 的 EFlasher 固件， 如 rk3568-eflasher-friendlywrt-23.05-docker-20240329.img.gz
 
