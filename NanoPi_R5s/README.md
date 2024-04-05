@@ -41,6 +41,4 @@
 
 ## 软路由网口配置
 
-参考软路由网口配置视频。
-
-![软路由网口配置视频](LAN_configuration.mp4)
+详细步骤可参考[软路由网口配置视频](LAN_configuration.mp4)。
