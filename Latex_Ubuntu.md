@@ -1,16 +1,16 @@
-### Step1. Install Tex Live
+# Step1. Install Tex Live
 
 ```bash
 sudo apt install -y texlive texlive-luatex
 ```
 
-### Step2. Install Latex Workshop in VS Code
+# Step2. Install Latex Workshop in VS Code
 
 ```bash
 ext install latex-workshop
 ```
 
- ### Step3. Modify settings.js in VS Code
+ # Step3. Modify settings.js in VS Code
 
 ```json
     "latex-workshop.view.pdf.viewer": "tab",
@@ -49,6 +49,3 @@ ext install latex-workshop
         }
     ],
 ```
-
-
-
