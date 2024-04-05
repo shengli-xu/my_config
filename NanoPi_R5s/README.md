@@ -43,4 +43,4 @@
 
 ## 软路由网口配置
 
-详细步骤可参考[软路由网口配置视频](LAN_configuration.mp4)。
+详细步骤可参考 FriendlyWrt [官方文档的第 5 章节](https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R5S/zh#FriendlyWrt.E7.9A.84.E4.BD.BF.E7.94.A8) 和 [软路由网口配置视频](LAN_configuration.mp4)。
