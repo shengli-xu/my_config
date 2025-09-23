@@ -1,4 +1,11 @@
 {
+  "syncSettings.resources": [
+    "extensions",
+    "keybindings",
+    "settings",
+    "snippets",
+    "uiState"
+  ],
   "update.mode": "none",
   "workbench.activityBar.orientation": "vertical",
   "workbench.colorTheme": "Tokyo Night Storm",
@@ -93,10 +100,6 @@
   "breadcrumbs.enabled": false,
   "rewrap.autoWrap.enabled": true,
   "rewrap.wrappingColumn": 79,
-  "settingsSync.ignoredExtensions": [
-    "ms-vscode-remote.remote-wsl",
-    "james-yu.latex-workshop"
-  ],
   "security.workspace.trust.banner": "never",
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.osx": "zsh",
@@ -114,16 +117,8 @@
   "notebook.output.scrolling": true,
   "python.terminal.executeInFileDir": true,
   "python.languageServer": "None",
-  "python.analysis.extraPaths": [
-    "${workspaceFolder}",
-    "${fileDirname}",
-    "${env:HOME}/isaacsim_ws/isaacgym/python"
-  ],
-  "python.analysis.autoImportCompletions": false,
-  "python.analysis.indexing": false,
   "autopep8.args": ["--max-line-length=79", "--ignore", "E402"],
   "autopep8.path": ["${env:HOME}/.local/bin/autopep8"],
-  "python.analysis.inlayHints.pytestParameters": false,
   "notebook.lineNumbers": "on",
   "notebook.cellToolbarVisibility": "hover",
   "notebook.cellToolbarLocation": {
@@ -132,11 +127,6 @@
   },
   "autoDocstring.docstringFormat": "numpy",
   "autoDocstring.startOnNewLine": true,
-  "cmake.configureOnOpen": false,
-  "cmake.buildTask": true,
-  "cmake.options.statusBarVisibility": "visible",
-  "C_Cpp.formatting": "clangFormat",
-  "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Allman, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 79, KeepEmptyLinesAtTheStartOfBlocks: true}",
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
@@ -525,12 +515,6 @@
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": true,
   "clangd.path": "/usr/bin/clangd-20",
-  "cursorpyright.analysis.autoImportCompletions": false,
-  "cursorpyright.analysis.extraPaths": [
-    "${workspaceFolder}",
-    "${fileDirname}",
-    "${env:HOME}/isaacsim_ws/isaacgym/python"
-  ],
   "cursor.cpp.enablePartialAccepts": true,
   "editor.semanticHighlighting.enabled": false,
   "editor.semanticTokenColorCustomizations": {
@@ -548,13 +532,9 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
-  "sync.quietSync": true,
-  "sync.gist": "caa04e97e9855e84eb510c11b2f05103",
   "workbench.remoteIndicator.showExtensionRecommendations": false,
   "svg.preview.mode": "svg",
   "editor.minimap.enabled": true,
-  "sync.autoDownload": false,
-  "sync.autoUpload": true,
   "docker.extension.enableComposeLanguageServer": false,
   "extensions.autoCheckUpdates": false
 }
