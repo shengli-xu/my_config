@@ -69,7 +69,8 @@
       "other": true,
       "comments": false,
       "strings": true
-    }
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[launch]": {
     "editor.tabSize": 2
@@ -229,7 +230,7 @@
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "markdown.extension.preview.autoShowPreviewToSide": false,
-  "projectManager.git.baseFolders": ["~/T170", "~/Projects"],
+  "projectManager.git.baseFolders": ["~/Projects", "~/zoyi"],
   "cSpell.language": "en-US",
   "cSpell.enabled": true,
   "cSpell.diagnosticLevel": "Hint",
@@ -287,6 +288,7 @@
     "denoising",
     "deque",
     "devel",
+    "dofadr",
     "downsample",
     "downsampling",
     "DROS",
@@ -379,6 +381,7 @@
     "pexels",
     "PINN",
     "playout",
+    "plotjuggler",
     "polyfit",
     "polylines",
     "polyval",
@@ -395,6 +398,7 @@
     "PYTHONPATH",
     "pytorch",
     "pyzed",
+    "qpos",
     "qwen",
     "randn",
     "rclcpp",
@@ -473,6 +477,7 @@
     "Wasserstein",
     "WGAN",
     "winfo",
+    "worldbody",
     "xlabel",
     "xticks",
     "ylabel",
