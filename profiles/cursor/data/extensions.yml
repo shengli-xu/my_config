@@ -2,8 +2,6 @@ builtin:
   disabled:
     - undefined.cursor-themes
 disabled:
-  - id: anysphere.cursorpyright
-    uuid: d7f9f831-2239-4783-9d06-18d27f285818
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
 enabled:
@@ -15,6 +13,8 @@ enabled:
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
   - id: analytic-signal.preview-mp4
     uuid: e875d04f-b443-438c-bfad-1af12b37df32
+  - id: anysphere.cursorpyright
+    uuid: d7f9f831-2239-4783-9d06-18d27f285818
   - id: anysphere.remote-containers
     uuid: 94d8b289-9db0-4c3c-b4f3-a3294c789678
   - id: anysphere.remote-ssh
@@ -79,6 +79,8 @@ enabled:
     uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
+  - id: openai.chatgpt
+    uuid: 90b52117-6fd1-4f1c-9e14-256bd6e21d79
   - id: PKief.material-icon-theme
     uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: pranaygp.vscode-css-peek
