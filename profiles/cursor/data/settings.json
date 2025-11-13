@@ -115,8 +115,6 @@
   "debug.openDebug": "neverOpen",
   "extensions.ignoreRecommendations": true,
   "notebook.output.scrolling": true,
-  "python.terminal.executeInFileDir": true,
-  "python.languageServer": "None",
   "autopep8.args": ["--max-line-length=79", "--ignore", "E402"],
   "autopep8.path": ["${env:HOME}/.local/bin/autopep8"],
   "notebook.lineNumbers": "on",
@@ -127,6 +125,11 @@
   },
   "autoDocstring.docstringFormat": "numpy",
   "autoDocstring.startOnNewLine": true,
+  "python.terminal.executeInFileDir": true,
+  "cursorpyright.analysis.extraPaths": [
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
@@ -552,5 +555,6 @@
   "editor.minimap.enabled": true,
   "docker.extension.enableComposeLanguageServer": false,
   "extensions.autoCheckUpdates": false,
-  "update.mode": "none"
+  "update.mode": "none",
+  "lldb.suppressUpdateNotifications": true
 }
