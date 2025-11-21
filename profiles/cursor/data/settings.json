@@ -128,7 +128,8 @@
   "python.terminal.executeInFileDir": true,
   "cursorpyright.analysis.extraPaths": [
     "/opt/ros/humble/lib/python3.10/site-packages",
-    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    "/opt/ros/humble/local/lib/python3.10/dist-packages",
+    "/home/victoryxu/zoyi/T170/T170_ros/t170_sdk_ros/install/robot_interfaces/local/lib/python3.10/dist-packages"
   ],
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
@@ -440,6 +441,7 @@
     "skiprows",
     "sklearn",
     "Smol",
+    "smolvla",
     "softmax",
     "spacy",
     "sqlalchemy",
@@ -556,5 +558,6 @@
   "docker.extension.enableComposeLanguageServer": false,
   "extensions.autoCheckUpdates": false,
   "update.mode": "none",
-  "lldb.suppressUpdateNotifications": true
+  "lldb.suppressUpdateNotifications": true,
+  "cursorpyright.shouldImportPylanceSettings": "never"
 }
