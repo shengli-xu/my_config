@@ -11,8 +11,6 @@ enabled:
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
-  - id: analytic-signal.preview-mp4
-    uuid: e875d04f-b443-438c-bfad-1af12b37df32
   - id: anysphere.cursorpyright
     uuid: d7f9f831-2239-4783-9d06-18d27f285818
   - id: anysphere.remote-containers
@@ -21,6 +19,8 @@ enabled:
     uuid: 73a45d83-83c7-4b22-bebf-c9130b0ab3f3
   - id: anysphere.remote-wsl
     uuid: 39a52826-2472-403d-8410-37905302f26a
+  - id: battlecook.omni-viewer
+    uuid: cbee2032-9632-4276-be4a-836e4efc2f62
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: codezombiech.gitignore

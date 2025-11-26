@@ -15,7 +15,8 @@
     "{hexdiff}:/**/*.*": "hexEditor.hexedit",
     "*.ipynb": "jupyter-notebook",
     "*.STL": "default",
-    "*.svg": "default"
+    "*.svg": "default",
+    "*.mp4": "omni-viewer.videoViewer"
   },
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
@@ -127,6 +128,7 @@
   "autoDocstring.startOnNewLine": true,
   "python.terminal.executeInFileDir": true,
   "cursorpyright.analysis.extraPaths": [
+    "/home/victoryxu/isaac_ws/isaacgym/python",
     "/opt/ros/humble/lib/python3.10/site-packages",
     "/opt/ros/humble/local/lib/python3.10/dist-packages",
     "/home/victoryxu/zoyi/T170/T170_ros/t170_sdk_ros/install/robot_interfaces/local/lib/python3.10/dist-packages"
@@ -318,6 +320,7 @@
     "Goodfellow",
     "GPIO",
     "gymapi",
+    "gymtorch",
     "heapq",
     "heightfield",
     "hparams",
@@ -340,6 +343,7 @@
     "itertools",
     "itos",
     "Jetson",
+    "JOINTCONTROL",
     "Kalman",
     "keepdim",
     "keras",
@@ -362,6 +366,7 @@
     "matplotlib",
     "MCNN",
     "Mdes",
+    "Meshcat",
     "meshgrid",
     "microtypography",
     "minibatch",
@@ -414,6 +419,7 @@
     "rclcpp",
     "rclpy",
     "relu",
+    "remappings",
     "reparameterization",
     "resnet",
     "rgba",
