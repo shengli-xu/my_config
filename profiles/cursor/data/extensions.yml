@@ -1,5 +1,6 @@
 builtin:
   disabled:
+    - anysphere.cursor-commits
     - undefined.cursor-themes
 disabled:
   - id: vscodevim.vim

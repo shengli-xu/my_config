@@ -4,7 +4,7 @@
     "keybindings",
     "settings",
     "snippets",
-    "uiState"
+    "uiState",
   ],
   "workbench.sideBar.location": "left",
   "workbench.activityBar.orientation": "vertical",
@@ -15,9 +15,9 @@
   "workbench.editorAssociations": {
     "{hexdiff}:/**/*.*": "hexEditor.hexedit",
     "*.ipynb": "jupyter-notebook",
-    "*.STL": "default",
+    "*.STL": "stlViewer.previewEditor",
     "*.svg": "default",
-    "*.mp4": "omni-viewer.videoViewer"
+    "*.mp4": "omni-viewer.videoViewer",
   },
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#1073cf2d",
@@ -26,7 +26,7 @@
     "statusBar.noFolderBackground": "#24283B",
     "statusBar.debuggingBackground": "#24283B",
     "statusBar.foreground": "#a9b1d6",
-    "statusBar.debuggingForeground": "#a9b1d6"
+    "statusBar.debuggingForeground": "#a9b1d6",
   },
   "workbench.editor.empty.hint": "hidden",
   "editor.fontFamily": "JetBrain Mono",
@@ -56,11 +56,11 @@
   "editor.insertSpaces": true,
   "editor.detectIndentation": true,
   "editor.unicodeHighlight.allowedLocales": {
-    "zh-hant": true
+    "zh-hant": true,
   },
   "editor.inlineSuggest.suppressSuggestions": true,
   "[xml]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "[yaml]": {
     "editor.tabSize": 2,
@@ -69,12 +69,12 @@
     "editor.quickSuggestions": {
       "other": true,
       "comments": false,
-      "strings": true
+      "strings": true,
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[launch]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -87,10 +87,10 @@
     ".idea": true,
     "**/__pycache__": true,
     "**/**/*.pyc": true,
-    ".python-version": true
+    ".python-version": true,
   },
   "files.associations": {
-    "*.launch": "xml"
+    "*.launch": "xml",
   },
   "explorer.autoReveal": false,
   "explorer.openEditors.visible": 1,
@@ -123,7 +123,7 @@
   "notebook.cellToolbarVisibility": "hover",
   "notebook.cellToolbarLocation": {
     "default": "right",
-    "jupyter-notebook": "left"
+    "jupyter-notebook": "left",
   },
   "autoDocstring.docstringFormat": "numpy",
   "autoDocstring.startOnNewLine": true,
@@ -132,34 +132,34 @@
     "/home/victoryxu/isaac_ws/isaacgym/python",
     "/opt/ros/humble/lib/python3.10/site-packages",
     "/opt/ros/humble/local/lib/python3.10/dist-packages",
-    "/home/victoryxu/zoyi/T170/T170_ros/t170_sdk_ros/install/robot_interfaces/local/lib/python3.10/dist-packages"
+    "/home/victoryxu/zoyi/T170/T170_ros/t170_sdk_ros/install/robot_interfaces/local/lib/python3.10/dist-packages",
   ],
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "ms-python.autopep8",
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[c]": {
-    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
   },
   "[cpp]": {
-    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
   },
   "[tex]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "git.autofetch": true,
   "git.ignoreMissingGitWarning": true,
@@ -171,7 +171,7 @@
     "T170A.SLDASM": "${workspaceFolder}",
     "both_hands": "${workspaceFolder}",
     "inspire_hand_r": "${workspaceFolder}",
-    "zy-hy-1.1-urdf": "${workspaceFolder}"
+    "zy-hy-1.1-urdf": "${workspaceFolder}",
   },
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -180,36 +180,36 @@
   "vim.normalModeKeyBindings": [
     {
       "before": ["<Leader>", "o"],
-      "after": ["o", "<Esc>"]
+      "after": ["o", "<Esc>"],
     },
     {
       "before": ["<Leader>", "O"],
-      "after": ["O", "<Esc>"]
+      "after": ["O", "<Esc>"],
     },
     {
       "before": ["<Esc>"],
-      "commands": [":nohl"]
-    }
+      "commands": [":nohl"],
+    },
   ],
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
+      "after": ["<Esc>"],
+    },
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": [":"],
-      "commands": ["workbench.action.showCommands"]
+      "commands": ["workbench.action.showCommands"],
     },
     {
       "before": [">"],
-      "commands": ["editor.action.indentLines"]
+      "commands": ["editor.action.indentLines"],
     },
     {
       "before": ["<"],
-      "commands": ["editor.action.outdentLines"]
-    }
+      "commands": ["editor.action.outdentLines"],
+    },
   ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
@@ -218,7 +218,7 @@
     "<C-b>": false,
     "<C-d>": true,
     "<C-s>": false,
-    "<C-z>": false
+    "<C-z>": false,
   },
   "vim.statusBarColorControl": true,
   "vim.statusBarColors.normal": ["#24283B", "#a9b1d6"],
@@ -233,7 +233,7 @@
   "vim.highlightedyank.duration": 200,
   "[markdown]": {
     "editor.wordWrap": "off",
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
   },
   "markdown.extension.preview.autoShowPreviewToSide": false,
   "projectManager.git.baseFolders": ["~/zoyi", "~/Projects/manipulation"],
@@ -271,11 +271,13 @@
     "boxplot",
     "buildtool",
     "cfgs",
+    "CGAL",
     "CIFAR",
     "Clusterer",
     "cmap",
     "coef",
     "coeff",
+    "colcon",
     "Conv",
     "Convolutional",
     "coolwarm",
@@ -300,10 +302,12 @@
     "dofadr",
     "downsample",
     "downsampling",
+    "dpkg",
     "DROS",
     "dtype",
     "edgecolor",
     "Eigen",
+    "ENCOS",
     "ensembling",
     "eucl",
     "facecolor",
@@ -406,7 +410,9 @@
     "polyfit",
     "polylines",
     "polyval",
+    "popleft",
     "preds",
+    "PSCT",
     "pyaudio",
     "pybullet",
     "pydantic",
@@ -508,12 +514,14 @@
     "volumex",
     "Voronoi",
     "vstack",
+    "wandb",
     "Wasserstein",
     "WGAN",
     "winfo",
     "worldbody",
     "xlabel",
     "xticks",
+    "XVLA",
     "yesense",
     "ylabel",
     "ylim",
@@ -522,7 +530,7 @@
     "yolov",
     "yscale",
     "yticks",
-    "Zoyi"
+    "Zoyi",
   ],
   "launch": {
     "version": "0.2.0",
@@ -536,11 +544,11 @@
         "justMyCode": true,
         "cwd": "${fileDirname}",
         "env": {
-          "PYTHONPATH": "${workspaceFolder}"
-        }
-      }
+          "PYTHONPATH": "${workspaceFolder}",
+        },
+      },
     ],
-    "compounds": []
+    "compounds": [],
   },
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
@@ -550,7 +558,7 @@
   "terminal.integrated.inheritEnv": false,
   "remote.SSH.remotePlatform": {
     "t170": "linux",
-    "rtx4090": "linux"
+    "rtx4090": "linux",
   },
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": true,
@@ -563,14 +571,14 @@
         {
           "scope": "variable.other.cpp, variable.other.python",
           "settings": {
-            "foreground": "#7dcfff" // Red color
-          }
-        }
-      ]
-    }
+            "foreground": "#7dcfff", // Red color
+          },
+        },
+      ],
+    },
   },
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
   },
   "workbench.remoteIndicator.showExtensionRecommendations": false,
   "svg.preview.mode": "svg",
@@ -588,6 +596,7 @@
     "test",
     ".haxelib",
     "robots",
-    "rsl_rl"
-  ]
+    "rsl_rl",
+  ],
+  "remote.autoForwardPortsSource": "hybrid",
 }
