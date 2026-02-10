@@ -96,16 +96,12 @@ enabled:
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: sleistner.vscode-fileutils
     uuid: d637104e-1fd7-4063-98fc-8afe46012c9b
-  - id: smilerobotics.urdf
-    uuid: 936c33e5-bf38-44a0-96de-269190b8c01a
   - id: spywhere.guides
     uuid: 38ad8277-d23f-4cfc-becf-c77e41c3f2ee
   - id: stkb.rewrap
     uuid: b24a13f5-4e50-4d9a-ab0a-87f47d9fdfcb
   - id: streetsidesoftware.code-spell-checker
     uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
-  - id: thomascsd.vscode-readme-pattern
-    uuid: c088e498-c5fb-4aaa-9545-f08026293758
   - id: tomoki1207.pdf
     uuid: 6db08635-0c6a-45ba-9a4b-8c3e192c63c2
   - id: twxs.cmake
