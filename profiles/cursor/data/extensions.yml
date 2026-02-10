@@ -74,8 +74,6 @@ enabled:
     uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
   - id: ms-vscode.hexeditor
     uuid: cc7d2112-5178-4472-8e0e-25dced95e7f0
-  - id: ms-vscode.remote-explorer
-    uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
   - id: mtsmfm.vscode-stl-viewer
     uuid: 9443b9a3-b7c5-48de-b8ea-0ab62450aa07
   - id: naumovs.color-highlight
@@ -86,8 +84,6 @@ enabled:
     uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: pranaygp.vscode-css-peek
     uuid: 0b8f8d63-11a2-4194-969c-ca7488b3413a
-  - id: Ranch-Hand-Robotics.rde-pack
-    uuid: 7e0ecb1e-8614-4f7b-8033-a56100b114f9
   - id: Ranch-Hand-Robotics.urdf-editor
     uuid: a7eb065e-805c-4ab9-b789-0e14be5ce1ec
   - id: redhat.vscode-yaml
